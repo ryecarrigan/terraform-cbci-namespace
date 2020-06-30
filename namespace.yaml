@@ -1,10 +1,13 @@
 OperationsCenter:
   Enabled: false
   HostName: ${host_name}
+
 Master:
   Enabled: true
   OperationsCenterNamespace: ${oc_namespace}
+
 Agents:
   Enabled: true
+
 Hibernation:
   Enabled: true

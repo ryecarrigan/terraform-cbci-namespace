@@ -1,11 +1,6 @@
-variable "chart_version" {
-  default = ""
+terraform {
+  required_version = ">= 0.12.0"
 }
-
-variable "host_name" {}
-variable "master_namespace" {}
-variable "oc_namespace" {}
-variable "release_name" {}
 
 resource "kubernetes_namespace" "namespace" {
   metadata {
