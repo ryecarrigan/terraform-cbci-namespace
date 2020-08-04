@@ -8,6 +8,10 @@ Master:
 
 Agents:
   Enabled: true
+  SeparateNamespace:
+    Enabled: ${agent_namespace_enabled}
+    Name: ${agent_namespace_name}
+    Create: ${create_agent_namespace}
 
 Hibernation:
   Enabled: true
